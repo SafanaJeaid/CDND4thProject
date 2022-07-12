@@ -1,5 +1,15 @@
+*** Run kubernetes terminal output ***
+
 NAME     READY   STATUS    RESTARTS   AGE
-latest   1/1     Running   0          46s
+latest   1/1     Running   0          59s
 Forwarding from 127.0.0.1:8000 -> 80
 Forwarding from [::1]:8000 -> 80
 Handling connection for 8000
+
+*** Make prediction terminal output ***
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
