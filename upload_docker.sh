@@ -10,7 +10,7 @@ dockerpath="safanajeaid/devops:latest"
 
 # Step 2:  
 # Authenticate & tag
-docker login --username "safanajeaid" -p "Pymmab0711" docker.io
+docker login --username "safanajeaid" docker.io
 echo "Docker ID and Image: $dockerpath"
 docker tag devops $dockerpath
 
