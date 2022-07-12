@@ -6,10 +6,14 @@
 # Step 1:
 # Create dockerpath
 # dockerpath=<your docker ID/path>
+dockerpath="safanajeaid/devops:latest"
 
 # Step 2:  
 # Authenticate & tag
+docker login --username "safanajeaid" -p "Pymmab0711" docker.io
 echo "Docker ID and Image: $dockerpath"
+docker tag devops $dockerpath
 
 # Step 3:
 # Push image to a docker repository
+docker push $dockerpath
